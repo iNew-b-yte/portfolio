@@ -410,7 +410,7 @@ app.post('/users',
                     </List>
 
                     {phase.challenges && (
-                      <Box mt={3} p={3} bg="orange.900" bg="whiteAlpha.50" borderRadius="md">
+                      <Box mt={3} p={3} bg="whiteAlpha.50" borderRadius="md">
                         <Text fontSize="sm" fontWeight="600" color="orange.400" mb={2}>
                           Challenges:
                         </Text>
@@ -423,7 +423,7 @@ app.post('/users',
                     )}
 
                     {phase.impact && (
-                      <Alert status="success" variant="subtle" bg="green.900" bg="whiteAlpha.50" mt={3} borderRadius="md">
+                      <Alert status="success" variant="subtle" bg="whiteAlpha.50" mt={3} borderRadius="md">
                         <AlertIcon bosmize={4} />
                         <Text fontSize="sm" color="green.300">
                           <strong>Impact:</strong> {phase.impact}

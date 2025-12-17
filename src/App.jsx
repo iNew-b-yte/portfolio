@@ -27,10 +27,10 @@ function HomePage() {
 }
 
 function App() {
-  const basename = import.meta.env.MODE === 'production' ? '/portfolio' : '/'
+  // const basename = import.meta.env.MODE === 'production' ? '/portfolio' : '/'
   
   return (
-    <Router basename={basename}>
+    <Router>
       <Box bg="gray.900" minH="100vh">
         <Navbar />
         <Routes>
